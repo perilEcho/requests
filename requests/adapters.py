@@ -41,6 +41,7 @@ from .exceptions import (ConnectionError, ConnectTimeout, ReadTimeout, SSLError,
                          InvalidURL, InvalidHeader)
 from .auth import _basic_auth_str
 
+# hello
 try:
     from urllib3.contrib.socks import SOCKSProxyManager
 except ImportError:
